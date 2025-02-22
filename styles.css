@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e14ee8, #2a5298);
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: rgb(235, 252, 7);
+    margin-bottom: 20px;
+  }
+  
+  /* Diamond Packs Section */
+  .diamond-packs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card .price {
+    font-size: 1.2rem;
+    color: #ffd700;
+    margin-bottom: 15px;
+  }
+  
+  .card .buy-button {
+    padding: 10px 20px;
+    background: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .card .buy-button:hover {
+    background: #4524e8;
+  }
+  
+  /* Payment Details */
+  .payment-details {
+    margin-top: 40px;
+  }
+  
+  .payment-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .payment-icons img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .payment-details p {
+    margin-top: 10px;
+    color: #ffd700;
+  }
