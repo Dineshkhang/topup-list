@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #e14ee8, #2a5298);
-    color: #fff;
+    color: #ffffff;
     line-height: 1.6;
   }
   
@@ -27,6 +27,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
+    background-image: url(./aasets/bg-img.webp);
   }
   
   .card {
@@ -48,7 +49,7 @@ body {
   }
   
   .card .price {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #ffd700;
     margin-bottom: 15px;
   }
