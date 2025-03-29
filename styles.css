@@ -27,7 +27,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
-    background-image: url(./aasets/bg-img.webp);
+    background-image: url(./aasets/newbg.jpg);
   }
   
   .card {
@@ -61,7 +61,7 @@ body {
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition:all 0.3s ease;
   }
   
   .card .buy-button:hover {
